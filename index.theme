@@ -1,6 +1,6 @@
 [theme]
-name=Simplistic Greeter
-description=Simplistic Greeter Theme
+name=Elegant Greeter
+description=Elegant Greeter Theme
 engine=lightdm-webkit-greeter
 url=index.html
 session=gnome
