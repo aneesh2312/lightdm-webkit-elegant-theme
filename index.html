@@ -1,0 +1,53 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/greeter.css">
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/greeter1.js"></script>
+	<script type="text/javascript" src="js/jqueryrotate.js"></script>
+	<script type="text/javascript" src="js/animate.js"></script>
+	<script type="text/javascript" src="js/clock.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" id="top_bar">
+	<div class="navbar-form navbar-right">
+	<span id="time"></span>&nbsp;&nbsp;
+	</div>
+</div>
+<div class="col-lg-3 col-md-3"></div>
+<div class="col-lg-6 col-md-6" id="main_div">
+	<center>
+	<div class="form-group">
+		<span id="user_photo"></span>
+	</div>
+	<div class="form-group">
+		<span id="user_name"></span>
+	</div>
+	<table>
+		<td id="pass_col">
+			<div class="form-group">
+			<input type="password" class="form-control" placeholder="Password" id="passfield">
+			</div>
+		</td>
+		<td style="width:20;"></td>
+		<td>            
+			<div class="form-group" id="passdiv">
+			<a href="#" onclick="submit();"><img src="logos/btn.png" id="sub_btn" class="img-circle"/></a>
+			</div>
+		</td>
+		</table>
+		<span id="err_notif"></span>
+	</center>
+</div>
+<div class="navbar navbar-fixed-bottom navbar-default" id="bottom_bar">
+	&nbsp;&nbsp;&nbsp;<a href="#" onclick="handleact('shutdown');rot();"><span rel="tooltip" title="Shutdown"><img src="logos/shutdown.png" id="shut_btn" alt="Shutdown" class=img-circle"></span></a>
+	&nbsp;&nbsp;&nbsp;<a href="#" onclick="handleact('restart');rot();"><span rel="tooltip" title="Restart"><img src="logos/restart.png" id="res_btn" alt="Restart"class=img-circle"></span></a>
+	<div class="navbar-form navbar-right">
+		<table>
+		<ul id="userlist">
+		</ul>
+		</table>
+	</div>
+</div>
+</body>
+</html>

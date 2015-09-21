@@ -1,0 +1,52 @@
+body
+{
+	background: url('../back.jpg') no-repeat center center fixed;
+	color: white;
+	font-family: Ubuntu;
+}
+span
+{
+	color: white;
+}
+ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#top_bar
+{
+	background-color: rgba(0,0,0,0.1);
+	border-color: rgba(0,0,0,0.2);
+}
+#sub_btn, #shut_btn, #res_btn
+{
+	height: 35;
+	width: 35;
+}
+#bottom_bar
+{
+	background-color: rgba(0,0,0,0.0);
+	border-color: rgba(0,0,0,0.0);
+}
+#err_notif
+{
+	color: black;
+}
+#main_div
+{
+	top: 20%;
+}
+.navbar-nav > li > a, .navbar-brand 
+{
+    padding-top:5px !important;
+    padding-bottom:0 !important;
+	height: 30px;
+}
+.navbar 
+{
+	min-height:30px !important;
+}
+*:focus {
+    outline: 0 !important;
+}
